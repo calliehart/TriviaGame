@@ -1,0 +1,177 @@
+body {
+    background: #e76314;
+    z-index: 0;
+}
+
+img {
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+a {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #e76314;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-family: 'Holtwood One SC', serif;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.GJBNav {
+    background: #e9935f;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+   
+}
+
+.answer {
+    display: inline-block;
+    text-align: center;
+    background: #e76314;
+    width: 500px;
+    padding: 10px 0;
+    margin: 20px 100px;
+    border-radius: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    border: 0 solid #e9935f; 
+}
+
+.answer:hover {
+    background: #e9935f;
+    border: 0 solid #e9935f;
+}
+
+.btn-primary {
+    background: #e76314;
+    border: solid #e76314;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background: #e9935f;
+    border: solid #e9935f;
+}
+
+.restartBtn {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background: #e76314;
+    z-index: 1;
+}
+
+#quizDescriptions {
+    display: inline-block;
+    font-family: 'Baloo Tammudu', cursive; 
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    padding: 60px 100px 0 100px;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#questionHolder {
+    background: #fff;
+    width: 70%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+#timer {
+    margin-top: 20px;
+}
+
+#titleName {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .answer {
+        width: 440px;
+        font-size: 22px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .answer {
+        width: 330px;
+        font-size: 22px;
+        margin: 15px 50px;
+    }
+
+    img {
+        height: 150px;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .answer {
+        width: 260px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    img {
+        height: 130px;
+    }
+
+    #quizDescriptions {
+        font-size: 22px;
+        padding: 30px 20px 0 20px;
+        
+    }
+
+    #questionHolder {
+        padding: 30px 20px 30px 20px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        font-size: 18px;
+    }
+
+}
