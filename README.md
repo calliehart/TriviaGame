@@ -11,6 +11,15 @@ This game:
 * User has 30 seconds to answer question
 * Correct and Incorrect answers are counted and displayed at end of game.
 
+## Problem:
+Create a quiz that gives users a limited amount of time to answer and shows multiple answers to choose from. In the end the user should see their score.
+
+## Solution: 
+- Store questions as objects in an array
+- Create a timer using setTimeout(), setInterval(), and clearInterval()
+- Use the javascript to dynamically generate the quiz questions and available answers
+- Test chosen answer to see if it matches stored answer
+- Keep track of right and wrong answers
 
 ### References
 
