@@ -1,6 +1,6 @@
 # TriviaGame - Good Job, Brain! Themed
 
-## Decription
+## Description
 
 This is a simple browser trivia game designed to challenge the user to answer 6 trivia questions from any of the 3 possible randomized quizes. 
 
